@@ -37,6 +37,6 @@ header("location:detail.php?page=keranjang");
 }
 else if($aman>=1)
 {
-	header("location:index.php?pesan=blok");
+	header("location:index.html?pesan=blok");
 }
 ?>
