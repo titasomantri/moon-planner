@@ -49,7 +49,7 @@ if($_FILES['gambar']['name']){
 			mysqli_query($conn,"UPDATE buku set judul='$judul',id_ketegori='$id_kategori',pengarang='$pengarang',penerbit='$penerbit',halaman='$halaman',harga='$harga', gambar='$nama_file_baru', stok='$stok' where id_buku='$id_buku'");
 		
 			move_uploaded_file($_FILES['gambar']['tmp_name'], '../../gambar/'.$nama_file_baru);
-			header("location:index.html?page=buku");
+			header("location:index.php?page=buku");
 		}
 	}
 	

@@ -13,6 +13,6 @@ if($sim)
 {
 	$kat = $_POST['kategori'];
 	mysqli_query($conn,"INSERT into kategori set kategori='$kat'");
-	header("location:index.html?page=kategori");
+	header("location:index.php?page=kategori");
 }
 ?>

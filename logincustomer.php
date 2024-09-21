@@ -91,7 +91,7 @@ $.when.apply(null, promises).done(function () {
       <p>Belum punya akun?
        <span><a href="daftar.php?">Daftar</a></span></p>
        <center>
-      <span><a href="index.html?">Kembali</a></span></p>
+      <span><a href="index.php?">Kembali</a></span></p>
       </center>
     </div>
   </div>

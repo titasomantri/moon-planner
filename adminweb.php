@@ -88,7 +88,7 @@ $.when.apply(null, promises).done(function () {
       <input type="password" placeholder="Password" name="password" />
       <button type="submit">Login</button>
       <center>
-      <span><a href="index.html?">Kembali</a></span></p>
+      <span><a href="index.php?">Kembali</a></span></p>
       </center>
       </form>
     </div>

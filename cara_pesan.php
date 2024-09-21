@@ -26,7 +26,7 @@
 
         <div class="nav navbar-nav navbar-right">
          <ul id="nav">
-          <li style="background-color:#ff8800;"><a href="index.html" style="color:#fff;"><span class="glyphicon glyphicon-home"> Home | </span></a></li>
+          <li style="background-color:#ff8800;"><a href="index.php" style="color:#fff;"><span class="glyphicon glyphicon-home"> Home | </span></a></li>
           <li style="background-color:#ff8800;"><a href="" style="color:#fff;" ><span class="glyphicon glyphicon-list"> Kategori | </span></a>
 <ul>
 <li style="background-color:#ff8800;"><?php include("kat.php");?></li>
